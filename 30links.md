@@ -1,6 +1,37 @@
+理解问题 → 复述(举例) → 澄清(边角) → 初步想法 → 实例分析走一遍 → 整洁写码 → 主动测试 → 解释性能 → 优化
+-  初步想法 Logic
+   - Speak out bruce force, any workable
+   - Get better soln with hints
+- 整洁写码 Code Quality
+  - Finish major code
+  - Readable, clean, structured, meaningful variable names， constant variables
+  - 优化 High coupling (spaghetti long running code)
+---
 - Daily Highlight: https://www.yuque.com/chengxuyuancarl/wnx1np/ktwax2
 - 32th Record: https://docs.qq.com/sheet/DUGV1bWJRdW1zaEda?tab=BB08J2
 - Daily list: https://docs.qq.com/doc/DUEVRd2RKZEVsdFl3
+---
+### 算法复杂度，反推算法复杂度
+- Array, search O(1),适合写多读少的, 其他O(n);删可O(1)移尾补空
+- LinkedList增删O(1),delete需知道前面的node, findO(n)
+- Heap: O(1) top; other push/delete/pop O(logn)
+- HashTable O(1)/O(L); L as length of key string
+- Segment Tree: O(1) min/max/sum; O(logn)增删查改lower/upperBound, rangeMin/Max/Sum
+- Binary Indexed Tree: O(logn) rangeSum
+- Skip List/RB-Tree: O(1) max/min; O(logn)增删查改lower/upperBound
+- Union Find: O(1) Find, union, isConnected, getSize
+
+- O(1) math problems
+- O(logn) 90%binary search, 倍增(每次X2）快速幂(x^n),Euclid_gcd
+- O(sqrtn) factorization
+- O(n): Two Pointers90%; BinaryTreeTraversal/DivideConquer; N*(O(1)[UnionFind/HashMap); Monotonic-stack/queue; Enumeration
+- O(nlogn): sorting;binary n * logn
+- O(nlogk): k interval
+- O(n+m) BFS
+- O(n^2),O(n^3) dynamic, BFS if nxn matrix
+- O(2^n): combination DFS
+- O(n!): permutation DFS
+
 ---
 - **理解** -- 写 -- **讲** （过程艰难，但结果会美好）
 - **有成长的抄答案**，最快的速度爬到前人的肩膀上，是高效的学习方式
