@@ -67,10 +67,13 @@
 - 模拟 【30min内
   - 抽取一道新题，看能不能做过复刷的效果目标。把题记入笔记。
 ---
-1. DMSXL
-2. Log
-3. 古城
-4. 公司tag
+## LC: DMSXL -- Neetcode -- 剑指 -- Log -- 古城 -- Blind 75 -- 公司tag
+
+## Sys-design: Alex I -- Alex II -- Youtube -- 古城 -- 九章（网盘
+
+## Design patter: 随想录 -- 九章 -- 古城
+
+## OOD & Concepts: Java, C++ -- SQL -- Shell
 ---
 - Format instructions: https://docs.qq.com/doc/DUEdmb1JCaEtlZWFx
 - 30 Log: https://docs.qq.com/sheet/DUFVFaFZEa0J2UnJk
