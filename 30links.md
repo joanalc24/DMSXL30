@@ -66,7 +66,12 @@
   - 针对做过的题进行复习。自言自语clarify题意，讲清楚自己的思路，写题，检查，跑case，争取bug free一遍过。只有参考笔记和标准答案来复盘自己的错误和不足。
 - 模拟 【30min内
   - 抽取一道新题，看能不能做过复刷的效果目标。把题记入笔记。
---- 
+---
+1. DMSXL
+2. Log
+3. 古城
+4. 公司tag
+---
 - Format instructions: https://docs.qq.com/doc/DUEdmb1JCaEtlZWFx
 - 30 Log: https://docs.qq.com/sheet/DUFVFaFZEa0J2UnJk
 ---
