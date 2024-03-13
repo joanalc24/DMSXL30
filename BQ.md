@@ -1,3 +1,9 @@
+面试官要的是以后每天能一起愉快工作的伙伴，不是做题的机器
+刷题熟练 != 面试表现好
+
+提前熟悉工具 (Coderpad, google doc, Hacker rank etc)
+
+
 STAR: situation, task, action, result
 
 speak out the words, hint interviewers

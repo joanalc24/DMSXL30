@@ -7,10 +7,12 @@
   - Readable, clean, structured, meaningful variable names， constant variables
   - 优化 High coupling (spaghetti long running code)
 ---
+# Resources
 - Daily Highlight: https://www.yuque.com/chengxuyuancarl/wnx1np/ktwax2
 - 32th Record: https://docs.qq.com/sheet/DUGV1bWJRdW1zaEda?tab=BB08J2
 - Daily list: https://docs.qq.com/doc/DUEVRd2RKZEVsdFl3
-- Vide哦link:https://www.bilibili.com/video/BV1fA4y1o715/?spm_id_from=333.788&vd_source=6efcaabf8dd28a65af74e654d5c2cc10
+- Video link:https://www.bilibili.com/video/BV1fA4y1o715/?spm_id_from=333.788&vd_source=6efcaabf8dd28a65af74e654d5c2cc10
+- https://github.com/CyC2018/CS-Notes/blob/master/notes/10.1%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md
 ---
 ### 算法复杂度，反推算法复杂度
 - Array, search O(1),适合写多读少的, 其他O(n);删可O(1)移尾补空
