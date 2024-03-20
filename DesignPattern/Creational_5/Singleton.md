@@ -63,23 +63,26 @@ public class Main {
         cart.viewCart();
     }
 }
-class ShoppingCartManager {
+class ShoppingCartManager { // cannot be public ow in ShoppingCartManager.java
+    // static in function declaration to restrict access
     // private, static, final
     private static final ShoppingCartManager instance = new ShoppingCartManager();
-    
-    public static ShoppingCartManager getInstance() { // must be static
-        return instance;
-    }
     
     private Map<String, Integer> cart;
     private ShoppingCartManager() {
         cart = new LinkedHashMap<>(); 
     }
+
+	public static ShoppingCartManager getInstance() { // must be static
+        return instance;
+    }
     
+    // no static, just public
     public void addToCart(String name, Integer quantity) {
         cart.put(name, cart.getOrDefault(name, 0) + quantity);
     }
     public void viewCart() {
+        // Map.Entry<..>, cart.entrySet()
         for(Map.Entry<String, Integer> entry : cart.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
