@@ -15,6 +15,14 @@ Factory Method. Creates objects without specifying the exact class to create.
 抽象工厂接口AbstractFactory: 声明一组用于创建产品的方法，每个方法对应一个产品。
 具体工厂类ConcreteFactory： 实现抽象工厂接口，负责创建一组具体产品的对象，在本例中，生产古典风格的工厂和生产现代风格的工厂都是具体实例。
 */
+
+/**
+ * 
+3
+modern
+classical
+modern
+ */
 import java.util.Scanner;
 
 public class Main {

@@ -1,6 +1,6 @@
 # Singleton
 1. Create only one single instance of a class // Singleton()
-2. Provide provide only one global access point to that object. // getInstance()
+2. Provide only one global access point to that object. // getInstance()
 eg: Calendar
 
 ## Usage scenario

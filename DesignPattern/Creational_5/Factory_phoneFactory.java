@@ -12,6 +12,9 @@ Factory Method. Creates objects without specifying the exact class to create.
 
  * 小明家有两个工厂，一个用于生产Iphone，一个用于SamsungPhone
     设计一个Phone工厂系统，记录Phone生产的信息。
+
+    type --> AFactory --> PhoneA
+             BFactory --> PhoneB
  */
 import java.util.ArrayList;
 import java.util.List;
@@ -65,7 +68,6 @@ class SamsungPhoneFactory implements PhoneFactory {
     public Phone createPhone() {
         return new Samsung();
     }
-
 }
 class PhoneFactorySystem {
     List<Phone> phones = new ArrayList<>();
